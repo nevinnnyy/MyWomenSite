@@ -1,0 +1,229 @@
+/* Main стили */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-image: url("./images/main-pic.png");
+    background-color: #2A606C;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.container{
+    max-width: 1170px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    padding:25px 0;
+    background-color:#204B52;
+    color:white;
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 25px;
+
+}
+.navigation-buttons{
+    width: 25%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.text-button{
+    font-size: 17px;
+
+}
+.content-box{
+    color:white;
+}
+.color-cards-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-cards-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-footer{
+    margin-top: 70px;
+    background-color: #204B52;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.container--footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main-footer_yellow-text{
+    color: #FDBD1F;
+}
+/* Карточки */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.card_circle{
+    background-color:white;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_icon{
+    width: 50%;
+}
+.card--profile-color{
+    width: 50%;
+    gap:20px;
+    padding: 60px 115px;
+}
+.card--profile-info{
+    width: 30%;
+    background-color:#204B52;
+    padding: 5% 20px ;
+    gap: 50px;
+}
+.card_header{
+    font-size:29px;
+    text-transform: uppercase;
+}
+.card_text{
+    font-size:16px;
+}
+.card_text--color{
+    color:#7fc3cf;
+}
+.card_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card--red{
+    background-color: #E84C3D;
+}
+.card--yellow{
+    background-color: #FDBD1F;
+}
+.card--green{
+    background-color: #1BBC9B;
+}
+.card--violet{
+    background-color: #9B58B5;
+}
+.card--border-red{
+    border-top: 10px solid #E84C3D;
+}
+.card--border-yellow{
+    border-top: 10px solid #FDBD1F;
+}
+.card--border-green{
+    border-top: 10px solid #1BBC9B;
+}
+/* Кнопки */
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bolder ;
+}
+.button--text-size-big{
+    font-size: 17px;
+}
+.button--text-size-small{
+    font-size: 15px;
+}
+.button--border{
+    border: 2px solid white;
+}
+.button--color-red{
+    background-color: #E84C3D;
+}
+.button--color-yellow{
+    background-color: #FDBD1F;
+}
+.button--color-green{
+    background-color: #1BBC9B;
+}
+/* Текст */
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-content_header{
+    text-transform: uppercase;
+}
+.text-content_text{
+    text-transform: uppercase;
+}
+.line-style-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 20%;
+    height: 2px;
+    background-color:#1BBC9B;
+}
+.line--left{
+    position:relative;
+    left: 15px;
+}
+.line--right{
+    position:relative;
+    right: 15px;
+}
+.text-content--up{
+    gap:31px;
+    padding: 115px;
+}
+.text-content--down{
+    gap:15px;
+    padding: 60px;
+}
+.text-content_header--tsize-big{
+    font-size: 41px;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+}
+.text-content_text--tsize-big{
+    font-size: 31px;
+    letter-spacing: 5px;
+}
+.text-content_header--tsize-small{
+    font-size: 29px;
+}
+.text-content_text--tsize-small{
+    font-size: 21px;
+}
